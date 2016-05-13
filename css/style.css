@@ -1,0 +1,224 @@
+
+
+/*HEADER*/
+
+.nav {
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 3rem;
+	min-height: 1.5rem;
+	padding-left: 1rem;
+	padding-top: 0rem;
+	padding-bottom: .5rem;
+}
+
+.relative {
+	position: relative;
+}
+
+.fullrow {
+	height: 100vh;
+	min-height: 30rem;
+}
+
+.halfrow {
+	height: 50vh;
+	min-height: 15rem;
+}
+
+.thirdrow {
+	height: 33.3vh;
+	min-height: 10rem;
+}
+
+.sixthrow {
+	height: 16.66vh;
+	min-height: 5rem;
+}
+
+/*TYPE*/
+
+.preview-overlay {
+	position: absolute;
+	top: .75rem;
+	left: 1rem;
+	width: 33%;
+}
+
+	.preview-overlay h1 {
+		font-weight: lighter;
+		font-size: 2.75rem;
+		color: black;
+	}
+
+	.preview-overlay h2 {
+		font-size: 2.5rem;
+		font-weight: lighter;
+		color: black;
+		line-height: .625;
+	}
+
+.header-overlay {
+	position: absolute;
+	left: 1rem;
+	max-height: 100%;
+}
+
+	.header-overlay h1 {
+		font-size: 2.25rem;
+	}
+
+.project-header {
+	padding-top: 18.5rem;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	min-width: 175px;
+}
+
+	.project-header h1, .project-header h2, .project-header p {
+		color: black;
+		font-weight: normal;
+	}
+
+	.project-header h1 {
+		font-size: 3.5rem;
+		line-height: .9;
+	}
+
+	.project-header h2 {
+		font-size: 1.5rem;
+		line-height: 2;
+		margin-bottom: 3rem;
+	}
+
+	.project-header p {
+		font-size: 1rem;
+	}
+
+.project-copy {
+
+}
+
+	.project-copy p {
+		padding: 2rem;
+		padding-bottom: 0;
+		min-width: 175px;
+		font-size: 1rem;
+	}
+
+.bio-overlay {
+	position: absolute;
+	top: .75rem;
+	left: 1rem;
+}
+
+	.bio-overlay h1, .bio-overlay h2 {
+		font-weight: lighter;
+		font-size: 1.75rem;
+		color: white;
+	}
+
+/*IMAGES*/
+
+.hero {
+	background: url("http://placehold.it/750x1000/939598/&text=[hero/small]") no-repeat center;
+	background-color: #939598;
+	}
+
+.subhero {
+	background: url("http://placehold.it/750x1000/505151/&text=[small]") no-repeat center;
+}
+
+.preview_0 {
+	background: url("http://placehold.it/750x1000/939598/&text=[small]") no-repeat center;
+}
+
+.preview_1 {
+	background: url("http://placehold.it/750x600/BCBEC0/&text=[small]") no-repeat center;
+	background-size: cover;
+}
+
+.preview_2 {
+	background: url("http://placehold.it/750x600/F1F2F2/&text=[small]") no-repeat center;
+	background-size: cover;
+}
+
+.preview_3 {
+	background: url("http://placehold.it/750x600/E6E7E8/&text=[small]") no-repeat center;
+	background-size: cover;
+}
+
+.selfie {
+	background-image: url('../img/small_selfie_750x500.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*FOOTER*/
+
+.social {
+	padding-top: 2.5rem;
+	height: 25vh;
+}
+
+.contact {
+	padding-top: 4rem;
+	padding-bottom: 2rem;
+}
+
+	.contact h1 {
+		font-size: 1.5rem;
+		padding-left: 1rem;
+		line-height: 1;
+	}
+
+.subhead {
+	padding: 1rem;
+}
+
+	.subhead h1 {
+		font-size: 2rem;
+		margin-bottom: 0;
+		font-weight: normal;
+	}
+
+
+/*/MEDIA QUERIES*/
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.preview-overlay h1 {
+		font-size: 2rem;
+	}
+
+	.preview-overlay h2 {
+		font-size: 1.75rem;
+	}
+
+	.selfie {
+	background-image: url('../img/medium_selfie_1200x500.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+	.show-for-large-only {
+    display: none !important; }
+	}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+.project-overlay h1 {
+	font-size: 2rem;
+}
+
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+	.show-for-large-only {
+    display: block !important; }
+}
