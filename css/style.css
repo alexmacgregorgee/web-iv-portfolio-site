@@ -11,7 +11,20 @@
 	padding-left: 1rem;
 	padding-top: 0rem;
 	padding-bottom: .5rem;
+	z-index: 100;
 }
+
+.header-overlay {
+	position: absolute;
+	left: 1rem;
+	max-height: 100%;
+}
+
+	.header-overlay h1 {
+		font-size: 2.25rem;
+		font-weight: bolder;
+		color: black;
+	}
 
 .relative {
 	position: relative;
@@ -59,16 +72,6 @@
 		line-height: .625;
 	}
 
-.header-overlay {
-	position: absolute;
-	left: 1rem;
-	max-height: 100%;
-}
-
-	.header-overlay h1 {
-		font-size: 2.25rem;
-	}
-
 .project-header {
 	padding-top: 18.5rem;
 	padding-left: 2rem;
@@ -97,7 +100,7 @@
 	}
 
 .project-copy {
-
+		min-width: 350px;
 }
 
 	.project-copy p {
@@ -122,38 +125,52 @@
 /*IMAGES*/
 
 .hero {
-	background: url("http://placehold.it/750x1000/939598/&text=[hero/small]") no-repeat center;
-	background-color: #939598;
+	background-image: url('../img/small_hero_750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
 	}
 
 .subhero {
-	background: url("http://placehold.it/750x1000/505151/&text=[small]") no-repeat center;
-}
+	background-image: url('../img/small_preview_fullrow1_750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
 
 .preview_0 {
-	background: url("http://placehold.it/750x1000/939598/&text=[small]") no-repeat center;
-}
+	background-image: url('../img/small_preview_fullrow2_750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
 
 .preview_1 {
-	background: url("http://placehold.it/750x600/BCBEC0/&text=[small]") no-repeat center;
-	background-size: cover;
-}
+	background-image: url('../img/small_preview_halfrow1_750x600.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
 
 .preview_2 {
-	background: url("http://placehold.it/750x600/F1F2F2/&text=[small]") no-repeat center;
-	background-size: cover;
-}
+	background-image: url('../img/small_preview_halfrow2_750x600.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}	
 
 .preview_3 {
-	background: url("http://placehold.it/750x600/E6E7E8/&text=[small]") no-repeat center;
-	background-size: cover;
-}
+	background-image: url('../img/small_preview_halfrow3_750x600.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+.preview_4 {
+	background-image: url('../img/small_preview_halfrow4_800x800.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
 
 .selfie {
 	background-image: url('../img/small_selfie_750x500.jpg');
 	background-repeat: no-repeat;
     background-position: center;
-}
+	}
 
 /*FOOTER*/
 
@@ -196,14 +213,52 @@
 		font-size: 1.75rem;
 	}
 
+	.hero {
+	background-image: url('../img/medium_hero_1100x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.subhero {
+	background-image: url('../img/medium_preview_fullrow1__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_0 {
+	background-image: url('../img/medium_preview_fullrow2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_1 {
+	background-image: url('../img/medium_preview_halfrow1_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_2 {
+	background-image: url('../img/medium_preview_halfrow2_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_3 {
+	background-image: url('../img/medium_preview_halfrow3_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_4 {
+	background-image: url('../img/medium_preview_halfrow4_1100x800.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
 	.selfie {
 	background-image: url('../img/medium_selfie_1200x500.jpg');
 	background-repeat: no-repeat;
     background-position: center;
-}
-
-	.show-for-large-only {
-    display: none !important; }
 	}
 
 /* Medium only */
@@ -213,12 +268,57 @@
 @media screen and (min-width: 64em) {
 .project-overlay h1 {
 	font-size: 2rem;
-}
+	}
+	.hero {
+	background-image: url('../img/large_hero_1500x1200.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
 
+	.subhero {
+	background-image: url('../img/large_preview_fullrow1_900x1100.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_0 {
+	background-image: url('../img/large_preview_fullrow2__900x1100.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_1 {
+	background-image: url('../img/large_preview_halfrow1_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_2 {
+	background-image: url('../img/large_preview_halfrow2_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}	
+
+	.preview_3 {
+	background-image: url('../img/large_preview_halfrow3_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.preview_4 {
+	background-image: url('../img/large_preview_halfrow4_1500x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.selfie {
+	background-image: url('../img/large_selfie_1500x750.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
 }
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {
-	.show-for-large-only {
-    display: block !important; }
-}
+
