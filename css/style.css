@@ -52,25 +52,57 @@
 
 /*TYPE*/
 
-.preview-overlay {
+.preview {
 	position: absolute;
-	top: .75rem;
 	left: 1rem;
 	width: 33%;
 }
 
-	.preview-overlay h1 {
+	.overlay {
+		top: 0;
+
+	}
+
+	.overlay h1 {
 		font-weight: lighter;
-		font-size: 2.75rem;
+		font-size: 3.75rem;
 		color: black;
 	}
 
-	.preview-overlay h2 {
-		font-size: 2.5rem;
+	.overlay h2 {
+		font-size: 3.5rem;
 		font-weight: lighter;
 		color: black;
 		line-height: .625;
 	}
+	
+	.large-small h1 {
+			font-size: 4.75rem;
+			font-weight: lighter;
+			color: black;
+		}
+
+		.large-small h2 {
+			font-size: 3.75rem;
+			font-weight: lighter;
+		color: black;
+		line-height: .625;
+		} 
+
+
+	.large-large h1 {
+		font-size: 3.75rem;
+		font-weight: lighter;
+			color: black;
+	}
+
+	.large-large h2 {
+		font-size: 3.5rem;
+		font-weight: lighter;
+		color: black;
+		line-height: .625;
+	}
+
 
 .project-header {
 	padding-top: 18.5rem;
@@ -205,11 +237,36 @@
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	.preview-overlay h1 {
+	
+	.overlay {
+		top: .6rem;
+	}
+
+	.overlay h1 {
 		font-size: 2rem;
 	}
 
-	.preview-overlay h2 {
+	.overlay h2 {
+		font-size: 1.75rem;
+	}
+
+	.large-large {
+		top: .6rem;
+	}
+
+	.large-small h1 {
+			font-size: 3.75rem;
+		}
+
+		.large-small h2 {
+			font-size: 3.5rem;
+	}
+
+		.large-large h1 {
+		font-size: 2rem;
+	}
+
+	.large-large h2 {
 		font-size: 1.75rem;
 	}
 
@@ -266,6 +323,36 @@
 
 /* Large and up */
 @media screen and (min-width: 64em) {
+
+	.overlay {
+		top: 1.3rem;
+	}
+
+	.overlay h1 {
+		font-size: 2.5rem;
+	}
+
+	.overlay h2 {
+		font-size: 2rem;
+	}
+
+	.large-small h1 {
+			font-size: 6rem;
+		}
+
+	.large-small h2 {
+			font-size: 4.75rem;
+	} 
+
+
+	.large-large h1 {
+		font-size: 3.75rem;
+	}
+
+	.large-large h2 {
+		font-size: 3rem;
+	}
+
 .project-overlay h1 {
 	font-size: 2rem;
 	}
