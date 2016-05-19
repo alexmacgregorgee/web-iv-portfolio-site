@@ -157,7 +157,7 @@
 /*IMAGES*/
 
 .hero {
-	background-image: url('../img/small_hero_750x1000.jpg');
+	/*background-image: url('../img/');*/
 	background-repeat: no-repeat;
     background-position: center;
 	}
@@ -231,6 +231,31 @@
 		margin-bottom: 0;
 		font-weight: normal;
 	}
+
+	.slick-prev{
+      display: block;
+      top: 64.5%;
+      left: 0;
+      width: 25vw;
+  
+    }
+
+    .slick-next{
+      display: block;
+	  top: 64.5%;
+      right: 0;
+      width: 25vw;
+      
+    }
+
+    .slick-next:before {
+    	
+      }
+    
+    .slick-prev:before {
+    	
+      }
+
 
 
 /*/MEDIA QUERIES*/
