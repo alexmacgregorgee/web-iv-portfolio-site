@@ -57,6 +57,10 @@
 
 /*TYPE*/
 
+.a {
+	color: inherit;
+}
+
 .preview {
 	position: absolute;
 	left: 1rem;
@@ -65,47 +69,62 @@
 
 	.overlay {
 		top: 0;
+	}
 
+	.white h1 {
+		color: white;
+	}
+
+	.white h2 {
+		color: white;
+	}
+
+	.black h1 {
+		color: black;
+	}
+
+	.black h2 {
+		color: black;
 	}
 
 	.overlay h1 {
-		font-weight: lighter;
+		font-family: 'Ek Mukta', sans-serif;
+		font-weight: 700;
 		font-size: 3.75rem;
-		color: black;
 	}
 
 	.overlay h2 {
+		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 3.5rem;
-		font-weight: lighter;
-		color: black;
-		line-height: .625;
+		font-weight: 300;
+		line-height: .125;
 	}
 	
 	.large-small h1 {
+			font-family: 'Ek Mukta', sans-serif;
 			font-size: 4.75rem;
-			font-weight: lighter;
-			color: black;
+			font-weight: 800;
 		}
 
 		.large-small h2 {
+			font-family: 'Source Sans Pro', sans-serif;
 			font-size: 3.75rem;
-			font-weight: lighter;
-		color: black;
-		line-height: .625;
+			font-weight: 200;
+			line-height: .125;
 		} 
 
 
 	.large-large h1 {
+		font-family: 'Ek Mukta', sans-serif;
 		font-size: 3.75rem;
-		font-weight: lighter;
-			color: black;
+		font-weight: 800;
 	}
 
 	.large-large h2 {
+		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 3.5rem;
-		font-weight: lighter;
-		color: black;
-		line-height: .625;
+		font-weight: 200;
+		line-height: .1;
 	}
 
 
@@ -161,16 +180,19 @@
 
 /*IMAGES*/
 
-.hero {
-	/*background-image: url('../img/');*/
+
+	.subhero {
+	background-image: url('../img/small_preview_fullrow_wired_750x1000.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
-.subhero {
-	background-image: url('../img/small_preview_fullrow1_750x1000.jpg');
+	.projecthero {
+	background-image: url('../img/large_project_fullrow_smokeout_900x1100.jpg');
 	background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: cover;
+    min-width: 33%;
 	}
 
 .preview_0 {
@@ -180,27 +202,70 @@
 	}
 
 .preview_1 {
-	background-image: url('../img/small_preview_halfrow1_750x600.jpg');
+	background-image: url('../img/small_preview_halfrow_grandma_750x600.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
 .preview_2 {
-	background-image: url('../img/small_preview_halfrow2_750x600.jpg');
+	background-image: url('../img/small_preview_halfrow_juris_750x600.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}	
 
 .preview_3 {
-	background-image: url('../img/small_preview_halfrow3_750x600.jpg');
+	background-image: url('../img/small_preview_halfrow_monsanto_750x600.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
 .preview_4 {
-	background-image: url('../img/small_preview_halfrow4_800x800.jpg');
+	background-image: url('../img/small_preview_halfrow_COC_750x600.jpg');
 	background-repeat: no-repeat;
     background-position: center;
+	}
+
+
+.preview_5 {
+	background-image: url('../img/small_preview_halfrow_smokeout_750x600.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+.preview_6 {
+	background-image: url('../img/large_preview_halfrow_dumpster_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+.preview_7 {
+	background-image: url('../img/small_preview_halfrow_grandpa_750x600.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+.preview_8 {
+	background-image: url('../img/small_preview_halfrow_monsanto2_750x600.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+.preview_9 {
+	background-image: url('../img/small_preview_halfrow_juris2_750x600.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+.preview_10 {
+	background-image: url('../img/small_preview_halfrow_COC2_750x600.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
 	}
 
 .selfie {
@@ -258,174 +323,622 @@
     }*/
 	
 	/*SMALL HERO SLIDER IMAGES*/
+
+	.smallherotype {
+		position: relative;
+		width: 40vw;
+		top: 75%;
+		left: 33vw;
+	}
+
 	.small-hero-1 {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero1_750x1000.jpg);
+		background-image: url(../img/small_hero_jeff_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
+
+				.small-hero-1 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 11vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.small-hero-1 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 7vw;
+					line-height: 1;
+					color: white;
+				}
 
 	.small-hero-2 {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero2_750x1000.jpg);
+		background-image: url(../img/small_hero_COC_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
+
+				.small-hero-2 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 11vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.small-hero-2 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 7vw;
+					line-height: 1;
+					color: white;
+				}
 
 	.small-hero-3 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero3_750x1000.jpg);
+		background-image: url(../img/small_hero_grandpa_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
+
+				.small-hero-3 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 11vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.small-hero-3 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 7vw;
+					line-height: 1;
+					color: white;
+				}
 
 	.small-hero-4 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero4_750x1000.jpg);
+		background-image: url(../img/small_hero_smokeout_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
 
+				.small-hero-4 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 11vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.small-hero-4 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 7vw;
+					line-height: 1;
+					color: white;
+				}
+
 	.small-hero-5 {
+	v
+		width: 100%;
+		height: 100vh;
+		background-image: url(../img/small_hero_monsanto_750x1000.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+	}
+
+				.small-hero-5 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 11vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.small-hero-5 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 7vw;
+					line-height: 1;
+					color: white;
+				}
+
+	.small-hero-6 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero5_750x1000.jpg);
+		background-image: url(../img/small_hero_wired_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
 
+				.small-hero-6 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 11vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.small-hero-6 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 7vw;
+					line-height: 1;
+					color: white;
+				}
+
+	.small-hero-7 {
+	
+		width: 100%;
+		height: 100vh;
+		background-image: url(../img/small_hero_juris_750x1000.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+	}
+
+				.small-hero-7 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 11vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.small-hero-7 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 7vw;
+					line-height: 1;
+					color: white;
+				}
+
 	/*MEDIUM HERO SLIDER IMAGES*/
+
+	.mediumherotype {
+		position: relative;
+		width: 40vw;
+		top: 70%;
+		left: 50vw;
+	}
 
 	.medium-hero-1 {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero1_1100x900.jpg);
+		background-image: url(../img/medium_hero_jeff_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
+
+				.medium-hero-1 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 7.5vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.medium-hero-1 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 5.5vw;
+					line-height: 1;
+					color: white;
+				}
 
 	.medium-hero-2 {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero2_1100x900.jpg);
+		background-image: url(../img/medium_hero_COC_1100x900.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top;
 		background-size: cover;
 
 	}
+
+				.medium-hero-2 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 7.5vw;
+					line-height: .75;
+				}
+
+				.medium-hero-2 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 5.5vw;
+					line-height: 1;
+				}
 
 	.medium-hero-3 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero3_1100x900.jpg);
+		background-image: url(../img/medium_hero_grandpa_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
 
+				.medium-hero-3 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 7.5vw;
+					line-height: .75;
+				}
+
+				.medium-hero-3 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 5.5vw;
+					line-height: 1;
+				}
+				
 	.medium-hero-4 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero4_1100x900.jpg);
+		background-image: url(../img/medium_hero_smokeout_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
 
+				.medium-hero-4 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 7.5vw;
+					line-height: .75;
+				}
+
+				.medium-hero-4 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 5.5vw;
+					line-height: 1;
+				}
+				
 	.medium-hero-5 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero5_1100x900.jpg);
+		background-image: url(../img/medium_hero_monsanto_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
 
+				.medium-hero-5 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 7.5vw;
+					line-height: .75;
+				}
+
+				.medium-hero-5 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 5.5vw;
+					line-height: 1;
+				}
+				
+	.medium-hero-6 {
+	
+		width: 100%;
+		height: 100vh;
+		background-image: url(../img/medium_hero_wired_1100x900.jpg);
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: cover;
+
+	}
+
+				.medium-hero-6 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 7.5vw;
+					line-height: .75;
+				}
+
+				.medium-hero-6 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 5.5vw;
+					line-height: 1;
+				}
+				
+	.medium-hero-7 {
+	
+		width: 100%;
+		height: 100vh;
+		background-image: url(../img/medium_hero_juris_1100x900.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+	}
+
+				.medium-hero-7 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 7.5vw;
+					line-height: .75;
+				}
+
+				.medium-hero-7 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 5.5vw;
+					line-height: 1;
+				}
+				
 /*LARGE HERO SLIDER IMAGES*/
+	
+	.largeherotype {
+		position: relative;
+		width: 40vw;
+		top: 70%;
+		left: 50%;
+	}
 
 	.large-hero-1 {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero2_1500x1200.jpg);
+		background-image: url(../img/large_hero_jeff_1500x1200.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
+
+				.large-hero-1 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 5.5vw;
+					line-height: .75;
+					color: white
+				}
+
+				.large-hero-1 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 3.5vw;
+					line-height: 1;
+					color: white;
+				}
 
 	.large-hero-2 {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero2_1500x1200.jpg);
+		background-image: url(../img/large_hero_COC_1500x1200.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top;
 		background-size: cover;
 
 	}
+				.large-hero-2 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 5.5vw;
+					line-height: .75;
+					color: white;
+				}
+
+				.large-hero-2 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 3.5vw;
+					line-height: 1;
+					color: white;
+				}
 
 	.large-hero-3 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero3_1500x1200.jpg);
+		background-image: url(../img/large_hero_grandpa_1500x1200.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top;
 		background-size: cover;
 
 	}
+				.large-hero-3 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 5.5vw;
+					line-height: .75;
+					color: black;
+				}
+
+				.large-hero-3 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 3.5vw;
+					line-height: 1;
+					color: black;
+				}
 
 	.large-hero-4 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero4_1500x1200.jpg);
+		background-image: url(../img/large_hero_smokeout_1500x1200.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top;
 		background-size: cover;
 
 	}
+				.large-hero-4 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 5.5vw;
+					line-height: .75;
+					color: black;
+				}
+
+				.large-hero-4 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 3.5vw;
+					line-height: 1;
+					color: black;
+				}
 
 	.large-hero-5 {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero5_1500x1200.jpg);
+		background-image: url(../img/large_hero_monsanto_1500x1200.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 
 	}
+				.large-hero-5 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 5.5vw;
+					line-height: .75;
+					color: black;
+				}
+
+				.large-hero-5 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 3.5vw;
+					line-height: 1;
+					color: black;
+				}
+
+	.large-hero-6 {
+	
+		width: 100%;
+		height: 100vh;
+		background-image: url(../img/large_hero_wired_1500x1200.jpg);
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: cover;
+
+	}
+				.large-hero-6 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 5.5vw;
+					line-height: .875;
+					color: black;
+				}
+
+				.large-hero-6 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 3.5vw;
+					line-height: 1;
+					color: black;
+				}
+
+	.large-hero-7 {
+	
+		width: 100%;
+		height: 100vh;
+		background-image: url(../img/large_hero_juris_1500x1200.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+	}
+				.large-hero-7 h1 {
+					position: relative;
+					font-family: 'Ek Mukta', sans-serif;
+					font-weight: 800;
+					font-size: 5.5vw;
+					line-height: .75;
+					color: black;
+				}
+
+				.large-hero-7 h2 {
+					position: relative;
+					font-family: 'Source Sans Pro', sans-serif;
+					font-weight: 200;
+					font-size: 3.5vw;
+					line-height: 1;
+					color: black;
+				}
 
 
 /*/MEDIA QUERIES*/
@@ -465,46 +978,94 @@
 		font-size: 1.75rem;
 	}
 
-	.hero {
-	background-image: url('../img/medium_hero_1100x900.jpg');
+
+	.subhero {
+	background-image: url('../img/medium_preview_fullrow_wired__750x1000.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
-	.subhero {
-	background-image: url('../img/medium_preview_fullrow1__750x1000.jpg');
+	.projecthero {
+	background-image: url('../img/large_project_fullrow_smokeout_900x1100.jpg');
 	background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: cover;
+    min-width: 33%;
 	}
 
 	.preview_0 {
-	background-image: url('../img/medium_preview_fullrow2__750x1000.jpg');
+	background-image: url('../img/large_project_fullrow_smokeout2_900x1100.jpg');
 	background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-size: cover;
+    min-width: 33%;
 	}
 
 	.preview_1 {
-	background-image: url('../img/medium_preview_halfrow1_600x900.jpg');
+	background-image: url('../img/large_preview_halfrow_grandma_700x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
 	.preview_2 {
-	background-image: url('../img/medium_preview_halfrow2_600x900.jpg');
+	background-image: url('../img/medium_preview_halfrow_juris_600x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
 	.preview_3 {
-	background-image: url('../img/medium_preview_halfrow3_600x900.jpg');
+	background-image: url('../img/medium_preview_halfrow_monsanto_600x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
 	.preview_4 {
-	background-image: url('../img/medium_preview_halfrow4_1100x800.jpg');
+	background-image: url('../img/medium_preview_halfrow_COC_600x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
+	}
+
+
+	.preview_5 {
+	background-image: url('../img/medium_preview_halfrow_smokeout_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_6 {
+	background-image: url('../img/large_preview_halfrow_dumpster_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_7 {
+	background-image: url('../img/medium_preview_halfrow_grandpa_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_8 {
+	background-image: url('../img/medium_preview_halfrow_monsanto2_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_9 {
+	background-image: url('../img/medium_preview_halfrow_juris2_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_10 {
+	background-image: url('../img/medium_preview_halfrow_COC2_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
 	}
 
 	.selfie {
@@ -548,51 +1109,100 @@
 		font-size: 3rem;
 	}
 
-.project-overlay h1 {
+	.project-overlay h1 {
 	font-size: 2rem;
 	}
-	.hero {
-	background-image: url('../img/large_hero_1500x1200.jpg');
+
+
+	.subhero {
+	background-image: url('../img/large_preview_fullrow_wired_900x1100.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
-	.subhero {
-	background-image: url('../img/large_preview_fullrow1_900x1100.jpg');
+	.projecthero {
+	background-image: url('../img/large_project_fullrow_smokeout_900x1100.jpg');
 	background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-width: 100%;
+  
 	}
 
 	.preview_0 {
-	background-image: url('../img/large_preview_fullrow2__900x1100.jpg');
+	background-image: url('../img/large_project_fullrow_smokeout2_900x1100.jpg');
 	background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+    background-width: 100%;
+    
 	}
 
 	.preview_1 {
-	background-image: url('../img/large_preview_halfrow1_700x900.jpg');
+	background-image: url('../img/large_preview_halfrow_grandma_700x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
 	.preview_2 {
-	background-image: url('../img/large_preview_halfrow2_700x900.jpg');
+	background-image: url('../img/large_preview_halfrow_juris_700x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}	
 
 	.preview_3 {
-	background-image: url('../img/large_preview_halfrow3_700x900.jpg');
+	background-image: url('../img/large_preview_halfrow_monsanto_700x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
 	}
 
 	.preview_4 {
-	background-image: url('../img/large_preview_halfrow4_1500x900.jpg');
+	background-image: url('../img/large_preview_halfrow_COC_700x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
    
 	}
+
+	.preview_5 {
+	background-image: url('../img/large_preview_halfrow_smokeout_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_6 {
+	background-image: url('../img/large_preview_halfrow_dumpster_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_7 {
+	background-image: url('../img/large_preview_halfrow_grandpa_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_8 {
+	background-image: url('../img/large_preview_halfrow_monsanto2_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_9 {
+	background-image: url('../img/large_preview_halfrow_juris2_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
+	.preview_10 {
+	background-image: url('../img/large_preview_halfrow_COC2_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+   
+	}
+
 
 	.selfie {
 	background-image: url('../img/large_selfie_1500x750.jpg');

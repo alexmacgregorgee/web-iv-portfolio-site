@@ -27,8 +27,7 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -40,6 +39,7 @@
     border: none;
     outline: none;
     background: transparent;
+    z-index: 10000000;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -67,7 +67,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 20px;
+    font-size: 50px;
     line-height: 1;
 
     opacity: .75;
@@ -80,6 +80,8 @@
 .slick-prev
 {
     left: 0px;
+    width: 10%;
+    height: 10%;
 }
 [dir='rtl'] .slick-prev
 {
@@ -106,6 +108,8 @@
 .slick-next
 {
     right: 0px;
+    width: 10%;
+    height: 10%;
 
 }
 [dir='rtl'] .slick-next
@@ -118,7 +122,7 @@
     content: '';
     display: block;
     background-image: url('../img/nextHero.svg');
-    background-size: inherit;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 10vw;
     height: 100%;
