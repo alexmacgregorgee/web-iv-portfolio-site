@@ -262,7 +262,7 @@ p {
 	}
 
 /*JURIS*/
-	.project3hero {
+	.project6hero {
 	background-image: url('../img/medium_project_fullrow_juris__750x1000.jpg');
 	background-repeat: no-repeat;
     background-position: top;
@@ -272,7 +272,7 @@ p {
  
 	}
 
-	.project3_1 {
+	.project6_1 {
 	background-image: url('../img/medium_project_fullrow_juris2__750x1000.jpg');
 	background-repeat: no-repeat;
     background-position: center;
@@ -281,14 +281,14 @@ p {
 	
 		}
 
-	.project3_2 {
+	.project6_2 {
 	background-image: url('../img/medium_project_halfrow_juris3_700x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
     height: 85vh;
 	}
 
-	.project3_3 {
+	.project6_3 {
 	background-image: url('../img/medium_project_halfrow_juris4_700x900.jpg');
 	background-repeat: no-repeat;
     background-position: center;
@@ -336,6 +336,137 @@ p {
     background-position: center;
 	height: 85vh;
 	}
+
+
+	/*SMELL*/
+
+		.project4hero {
+	background-image: url('../img/medium_project_fullrow_smell__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-width: 100%;
+     background-size: cover;
+    min-width: 33%;
+ 
+	}
+
+	.project4_1 {
+	background-image: url('../img/medium_project_fullrow_smell2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+	
+		}
+
+	.project4_2 {
+	background-image: url('../img/medium_project_halfrow_smell3_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+	}
+
+	.project4_3 {
+	background-image: url('../img/medium_project_halfrow_smell4_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+	.project4_4 {
+	background-image: url('../img/medium_project_fullrow_smell4__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+	.project4_5 {
+	background-image: url('../img/medium_project_fullrow_smell5__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+	/*PHOTOS*/
+
+	.project5hero {
+	background-image: url('../img/medium_project_fullrow_jeff__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-width: 100%;
+     background-size: cover;
+    min-width: 33%;
+ 
+	}
+
+	.project5_1 {
+	background-image: url('../img/medium_project_fullrow_photo2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+	
+		}
+
+	.project5_2 {
+	background-image: url('../img/medium_project_fullrow_jeff2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+	}
+
+	.project5_3 {
+	background-image: url('../img/medium_project_fullrow_jeff3__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+	/*WIRED*/
+
+	.project7hero {
+	background-image: url('../img/medium_project_fullrow_wiredhero__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-width: 100%;
+     background-size: cover;
+    min-width: 33%;
+ 
+	}
+
+	.project7_1 {
+	background-image: url('../img/medium_project_fullrow_wiredhero2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 159vh;
+
+	
+		}
+
+	.project7_2 {
+	background-image: url('../img/medium_project_halfrow_wired_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+	}
+
+	.project7_3 {
+	background-image: url('../img/medium_project_halfrow_wired2_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 70vh;
+	}
+
+		.project7_4 {
+	background-image: url('../img/medium_project_halfrow_wired3_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 70vh;
+	}
+
 
 /*IMAGES*/
 
@@ -506,7 +637,7 @@ p {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero_jeff_750x1000.jpg);
+		background-image: url(../img/small_hero_smokeout_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -564,7 +695,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero_grandpa_750x1000.jpg);
+		background-image: url(../img/small_hero_wired_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -593,7 +724,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero_smokeout_750x1000.jpg);
+		background-image: url(../img/small_hero_jeff_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -651,7 +782,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero_wired_750x1000.jpg);
+		background-image: url(../img/small_hero_juris_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -680,7 +811,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/small_hero_juris_750x1000.jpg);
+		background-image: url(../img/small_hero_grandpa_750x1000.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -718,7 +849,7 @@ p {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero_jeff_1100x900.jpg);
+		background-image: url(../img/medium_hero_smokeout_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -774,7 +905,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero_grandpa_1100x900.jpg);
+		background-image: url(../img/medium_hero_wired_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -801,7 +932,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero_smokeout_1100x900.jpg);
+		background-image: url(../img/medium_hero_jeff_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -855,7 +986,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero_wired_1100x900.jpg);
+		background-image: url(../img/medium_hero_juris_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: top;
 		background-size: cover;
@@ -882,7 +1013,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/medium_hero_juris_1100x900.jpg);
+		background-image: url(../img/medium_hero_grandpa_1100x900.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
@@ -918,9 +1049,9 @@ p {
 
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero_jeff_1500x1200.jpg);
+		background-image: url(../img/large_hero_smokeout_1500x1200.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top;
 		background-size: cover;
 
 	}
@@ -931,7 +1062,6 @@ p {
 					font-weight: 800;
 					font-size: 5.5vw;
 					line-height: .75;
-					color: white
 				}
 
 				.large-hero-1 h2 {
@@ -940,7 +1070,6 @@ p {
 					font-weight: 200;
 					font-size: 3.5vw;
 					line-height: 1;
-					color: white;
 				}
 
 	.large-hero-2 {
@@ -975,7 +1104,7 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero_grandpa_1500x1200.jpg);
+		background-image: url(../img/large_hero_wired_1500x1200.jpg);
 		background-repeat: no-repeat;
 		background-position: top;
 		background-size: cover;
@@ -1003,9 +1132,9 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero_smokeout_1500x1200.jpg);
+		background-image: url(../img/large_hero_jeff_1500x1200.jpg);
 		background-repeat: no-repeat;
-		background-position: top;
+		background-position: center;
 		background-size: cover;
 
 	}
@@ -1015,7 +1144,7 @@ p {
 					font-weight: 800;
 					font-size: 5.5vw;
 					line-height: .75;
-					color: black;
+					color: white;
 				}
 
 				.large-hero-4 h2 {
@@ -1024,7 +1153,7 @@ p {
 					font-weight: 200;
 					font-size: 3.5vw;
 					line-height: 1;
-					color: black;
+					color: white;
 				}
 
 	.large-hero-5 {
@@ -1059,9 +1188,9 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero_wired_1500x1200.jpg);
+		background-image: url(../img/large_hero_juris_1500x1200.jpg);
 		background-repeat: no-repeat;
-		background-position: top;
+		background-position: center;
 		background-size: cover;
 
 	}
@@ -1087,9 +1216,9 @@ p {
 	
 		width: 100%;
 		height: 100vh;
-		background-image: url(../img/large_hero_juris_1500x1200.jpg);
+		background-image: url(../img/large_hero_grandpa_1500x1200.jpg);
 		background-repeat: no-repeat;
-		background-position: center;
+		background-position: top;
 		background-size: cover;
 
 	}
@@ -1133,7 +1262,7 @@ p {
 	}
 
 	.large-large {
-		top: .6rem;
+		top: 1.5rem;
 	}
 
 	.large-small h1 {
@@ -1146,10 +1275,12 @@ p {
 
 		.large-large h1 {
 		font-size: 2rem;
+		line-height: .8;
 	}
 
 	.large-large h2 {
-		font-size: 1.75rem;
+		font-size: 2.5rem;
+		line-height: .7;
 	}
 
 .project-header {
