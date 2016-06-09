@@ -61,10 +61,15 @@
 	color: inherit;
 }
 
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+
 .preview {
 	position: absolute;
 	left: 1rem;
-	width: 33%;
+	width: 50%;
 }
 
 	.overlay {
@@ -126,56 +131,210 @@
 		font-weight: 200;
 		line-height: .1;
 	}
-
+/*PROJECT STUFF*/
 
 .project-header {
-	padding-top: 18.5rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-top: 40vh;
+	padding-left: 15vw;
+	padding-right: 5vw;
 	min-width: 175px;
 }
 
-	.project-header h1, .project-header h2, .project-header p {
-		color: black;
-		font-weight: normal;
-	}
 
 	.project-header h1 {
-		font-size: 3.5rem;
+		font-family: 'Ek Mukta', sans-serif;
+		font-size: 4rem;
+		font-weight: 800;
 		line-height: .9;
 	}
 
 	.project-header h2 {
-		font-size: 1.5rem;
-		line-height: 2;
-		margin-bottom: 3rem;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 4vw;
+		font-weight: 200;
+		line-height: 1;
+		margin-bottom: 1.5rem;
 	}
 
 	.project-header p {
-		font-size: 1rem;
+		font-size: 1.15rem;
 	}
 
 .project-copy {
-		min-width: 350px;
+		min-width: 175px;
+		padding-right: 10vw;
+		padding-top: 2rem;
 }
 
 	.project-copy p {
-		padding: 2rem;
 		padding-bottom: 0;
 		min-width: 175px;
-		font-size: 1rem;
+		font-size: 1.15rem;
+		padding-left: 5vw;
+		padding-right: 5vw;
 	}
 
-.bio-overlay {
-	position: absolute;
-	top: .75rem;
-	left: 1rem;
-}
+/*SMOKEOUT*/
+	.projecthero {
+	background-image: url('../img/medium_project_fullrow_smokeout__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-width: 100%;
+     background-size: cover;
+    min-width: 33%;
+ 
+	}
 
-	.bio-overlay h1, .bio-overlay h2 {
-		font-weight: lighter;
-		font-size: 1.75rem;
-		color: white;
+	.project_0 {
+	background-image: url('../img/medium_project_fullrow_smokeout2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+	
+		}
+
+	.project_1 {
+	background-image: url('../img/medium_project_halfrow_smokeout3_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+	}
+
+	.project_2 {
+	background-image: url('../img/medium_project_halfrow_smokeout4_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+	}
+
+	.project_3 {
+	background-image: url('../img/medium_project_halfrow_smokeout5_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.project_4 {
+	background-image: url('../img/medium_project_halfrow_smokeout6_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.project_5 {
+	background-image: url('../img/medium_project_halfrow_tablet_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+/*MONSANTO*/
+	.project2hero {
+	background-image: url('../img/large_project_fullrow_reportcover_900x1100.jpg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-width: 100%;
+     background-size: cover;
+    min-width: 33%;
+ 
+	}
+
+	.project2_0 {
+	background-image: url('../img/medium_project_fullrow_monsanto__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+	
+		}
+
+	.project2_1 {
+	background-image: url('../img/medium_project_halfrow_monsanto2_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+	}
+
+	.project2_5 {
+	background-image: url('../img/medium_project_halfrow_monsanto5_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+/*JURIS*/
+	.project3hero {
+	background-image: url('../img/medium_project_fullrow_juris__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-width: 100%;
+     background-size: cover;
+    min-width: 33%;
+ 
+	}
+
+	.project3_1 {
+	background-image: url('../img/medium_project_fullrow_juris2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+	
+		}
+
+	.project3_2 {
+	background-image: url('../img/medium_project_halfrow_juris3_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+	}
+
+	.project3_3 {
+	background-image: url('../img/medium_project_halfrow_juris4_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+/*COC*/
+	.project3hero {
+	background-image: url('../img/medium_project_fullrow_coc__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: top;
+    background-width: 100%;
+     background-size: cover;
+    min-width: 33%;
+ 
+	}
+
+	.project3_1 {
+	background-image: url('../img/medium_project_fullrow_COC2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+	
+		}
+
+	.project3_2 {
+	background-image: url('../img/medium_project_halfrow_coc_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+	}
+
+	.project3_3 {
+	background-image: url('../img/medium_project_halfrow_coc2_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+	.project3_4 {
+	background-image: url('../img/medium_project_halfrow_coc3_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
 	}
 
 /*IMAGES*/
@@ -187,13 +346,6 @@
     background-position: center;
 	}
 
-	.projecthero {
-	background-image: url('../img/large_project_fullrow_smokeout_900x1100.jpg');
-	background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    min-width: 33%;
-	}
 
 .preview_0 {
 	background-image: url('../img/small_preview_fullrow2_750x1000.jpg');
@@ -282,24 +434,43 @@
 }
 
 .contact {
-	padding-top: 4rem;
-	padding-bottom: 2rem;
+	padding-top: 5rem;
+	padding-right: 2.5rem;
 }
 
 	.contact h1 {
-		font-size: 1.5rem;
-		padding-left: 1rem;
+		font-family: 'Ek Mukta', sans-serif;
+		font-size: 1.5vw;
 		line-height: 1;
+		font-weight: 600;
+	}
+
+		.contact h2 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.5vw;
+		line-height: .9;
+		font-weight: 200;
+	}
+
+			.contact h3 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.5vw;
+		line-height: .9;
+		font-weight: 300;
 	}
 
 .subhead {
-	padding: 1rem;
+	padding-bottom: 2vw;
+	padding-top: 4.5rem;
+	padding-left: 2.5rem;
 }
 
 	.subhead h1 {
-		font-size: 2rem;
+		font-family: 'Ek Mukta', sans-serif;
+		font-size: 6vw;
+		font-weight: 600;
 		margin-bottom: 0;
-		font-weight: normal;
+		text-align: center;
 	}
 
 	/*.slick-prev{
@@ -952,10 +1123,13 @@
 
 	.overlay h1 {
 		font-size: 2rem;
+		line-height: .85;
 	}
 
 	.overlay h2 {
 		font-size: 1.75rem;
+		line-height: .9;
+		font-weight: 300;
 	}
 
 	.large-large {
@@ -978,6 +1152,47 @@
 		font-size: 1.75rem;
 	}
 
+.project-header {
+	padding-top: 40vh;
+	padding-left: 15vw;
+	padding-right: 5vw;
+	min-width: 175px;
+}
+
+
+	.project-header h1 {
+		font-family: 'Ek Mukta', sans-serif;
+		font-size: 4rem;
+		font-weight: 800;
+		line-height: .9;
+	}
+
+	.project-header h2 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 4vw;
+		font-weight: 200;
+		line-height: 1;
+		margin-bottom: 1.5rem;
+	}
+
+	.project-header p {
+		font-size: 1rem;
+		line-height: 1.5;
+	}
+
+.project-copy {
+		min-width: 175px;
+		padding-right: 10vw;
+		padding-top: 2rem;
+}
+
+	.project-copy p {
+		padding-bottom: 0;
+		min-width: 175px;
+		font-size: 1rem;
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
 
 	.subhero {
 	background-image: url('../img/medium_preview_fullrow_wired__750x1000.jpg');
@@ -986,12 +1201,70 @@
 	}
 
 	.projecthero {
-	background-image: url('../img/large_project_fullrow_smokeout_900x1100.jpg');
+	background-image: url('../img/medium_project_fullrow_smokeout__750x1000.jpg');
 	background-repeat: no-repeat;
     background-position: top;
-    background-size: cover;
+    background-width: 100%;
+     background-size: cover;
     min-width: 33%;
+ 
 	}
+
+	.project_0 {
+	background-image: url('../img/medium_project_fullrow_smokeout2__750x1000.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+	
+		}
+
+	.project_1 {
+	background-image: url('../img/medium_project_halfrow_smokeout3_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+	}
+
+	.project_2 {
+	background-image: url('../img/medium_project_halfrow_smokeout4_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+	}
+
+	.project_3 {
+	background-image: url('../img/medium_project_halfrow_smokeout5_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.project_4 {
+	background-image: url('../img/medium_project_halfrow_smokeout6_600x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.project_5 {
+	background-image: url('../img/medium_project_halfrow_tablet_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+	.project_6 {
+	background-image: url('../img/large_project_halfrow_laptops_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.project_7 {
+	background-image: url('../img/large_project_halfrow_laptops_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+
 
 	.preview_0 {
 	background-image: url('../img/large_project_fullrow_smokeout2_900x1100.jpg');
@@ -1128,13 +1401,60 @@
   
 	}
 
-	.preview_0 {
+	.project_0 {
 	background-image: url('../img/large_project_fullrow_smokeout2_900x1100.jpg');
 	background-repeat: no-repeat;
-    background-position: top;
-    background-width: 100%;
-    
+    background-position: center;
+    background-size: cover;
+    height: 135vh;
+	
+		}
+
+	.project_1 {
+	background-image: url('../img/large_project_halfrow_laptops_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
 	}
+
+	.project_2 {
+	background-image: url('../img/large_project_halfrow_laptops2_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+	}
+
+	.project_3 {
+	background-image: url('../img/large_project_halfrow_mobile_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.project_4 {
+	background-image: url('../img/large_project_halfrow_mobile2_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.project_5 {
+	background-image: url('../img/large_project_halfrow_tablet_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	height: 85vh;
+	}
+
+	.project_6 {
+	background-image: url('../img/large_project_halfrow_laptops_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
+	.project_7 {
+	background-image: url('../img/large_project_halfrow_laptops_700x900.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+	}
+
 
 	.preview_1 {
 	background-image: url('../img/large_preview_halfrow_grandma_700x900.jpg');
